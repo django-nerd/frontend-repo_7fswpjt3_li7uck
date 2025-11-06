@@ -3,7 +3,17 @@
 > vite
 
 
-  VITE v5.4.20  ready in 222 ms
+  VITE v5.4.20  ready in 221 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.48.39:3000/
+4:55:53 PM [vite] warning: Duplicate "style" attribute in JSX element
+49 |                transition={{ type: 'spring', stiffness: 260, damping: 20 }}
+50 |                className="group relative aspect-[4/5] overflow-hidden rounded-3xl p-[1.5px] shadow-[0_30px_120px_-30px_rgba(0,0,0,0.75)]"
+51 |                style={{ background: 'linear-gradient(180deg, rgba(255,255,255,0.18), rgba(255,255,255,0.04))' }}
+   |                ^
+52 |              >
+53 |                <div className="relative z-10 h-full w-full overflow-hidden rounded-3xl bg-[#0b0b0b]/80 backdrop-blur-xl">
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/ParallaxSection.jsx

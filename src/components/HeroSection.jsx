@@ -66,7 +66,7 @@ export default function HeroSection() {
       onMouseMove={onMouseMove}
       onMouseEnter={() => setHovering(true)}
       onMouseLeave={() => setHovering(false)}
-      className="relative min-h-[90vh] w-full overflow-hidden bg-black text-white"
+      className="relative min-h-[100vh] w-full overflow-hidden bg-black text-white"
     >
       {/* Background gradient waves */}
       <div className="pointer-events-none absolute inset-0" aria-hidden>
@@ -75,9 +75,9 @@ export default function HeroSection() {
         <div className="absolute left-1/2 top-1/3 h-[40vh] w-[40vh] -translate-x-1/2 rounded-full bg-[#CCFF00]/10 blur-[110px]"></div>
       </div>
 
-      {/* Mid-layer Spline scene */}
+      {/* Full-width Spline cover */}
       <div className="absolute inset-0" aria-hidden>
-        <Spline scene="https://prod.spline.design/EF7JOSsHLk16Tlw9/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <Spline scene="https://prod.spline.design/7m4PRZ7kg6K1jPfF/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>
 
       {/* Foreground neon shards */}
